@@ -10,13 +10,14 @@ The circuit I came up with is a more simplistic approach.  Monitor the Nest's wi
 
 ## Wiring
 The Nest normally needs 3-4 wires for heating operation and 4-5 wires for cooling.
-Y = Cooling Control
-G = Fan / Blower
-W = Heating Control
-C = 24VAC Common
-Rh = 24VAC Power
+- Y = Cooling Control
+- G = Fan / Blower
+- W = Heating Control
+- C = 24VAC Common
+- Rh = 24VAC Power
 
 The C and Rh wires provide 24VAC.  The circuit rectifies and regulates the 24VAC into 5VDC.
+
 The Y wire is monitored through a LTV-814H optoisolator.
 
 ## Usage
